@@ -1,0 +1,448 @@
+body{
+    margin:0;
+}
+
+
+
+/* FIXED NAV BAR -------------------*/
+
+
+.nav{
+    background-color: #F7DBD7;
+    list-style:none;
+    text-align:center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.nav li{
+    display:inline;
+    margin: 0 10px;
+    letter-spacing: 1px;
+
+}
+
+.nav li a:hover{
+    border-bottom:3px solid #EEEEEE;
+   
+}
+.nav a{
+    display:inline-block;
+    padding:0 30px;
+    margin: 5px;
+    text-decoration: none;
+    color:black;
+
+}
+
+
+
+
+/* LOGO -----------------------------*/
+
+
+
+.logo  {
+    text-align: center;
+    height: 280px;
+    padding-left: 40px;
+    
+}
+
+
+
+
+
+
+
+/* HERO IMAGE & TEXT -------------------*/
+
+
+
+.hero{
+   background-image: url(images/hero.jpg);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 10%;
+   border-top: 1px solid #f2f2eb;
+
+   
+    
+}
+
+.hero-text{
+    text-align: center;
+    margin: 10px;
+    padding:50px;
+    background-color: #ffffff;
+    outline: 1px solid black;
+    outline-offset: -25px;
+    background: rgba(231,236,231,0.6);
+}
+
+
+.hero-text h3, h1, p {
+    margin: 6%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hero-text h1{
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.hero-text p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.hero-text h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.hero-text a{
+    text-decoration: none;
+    border:1px solid #4C4C4C;
+    padding:5px;
+    color:#4C4C4C;
+    font-size: 20px;
+}
+    
+.hero-text a:hover { 
+    background: rgba(231,236,231,0.5);
+    
+}
+
+
+
+
+/* --------------------------------*/
+
+
+.parent{
+    display:flex;
+    margin: 7%;
+}
+
+
+.facts{
+    background-color: #EEEEEE;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    margin:15px;
+    padding:10px;
+    border: 1px solid #BEBEBE;
+}
+
+.facts img{
+    width:100%;
+    
+}
+
+.facts h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight:100;
+    margin: 15px;
+    font-family:'Gilda Display', serif;
+
+}
+
+.facts p{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.facts2{
+     background-color: #EEEEEE;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    margin:15px;
+    padding:10px;
+    border: 1px solid #BEBEBE;
+}
+
+
+.facts2 h2{
+    text-align: center;
+    font-size: 33px;
+    font-weight:100;
+    padding-top: 36px;
+    font-family:'Gilda Display', serif;
+
+}
+
+.facts2 li{
+    padding:10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+
+
+.box{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    margin:15px;
+
+}
+
+
+.box img{
+    width:100%;
+}
+
+.box a{
+    color:#BEBEBE;
+}
+
+.box h3{
+    font-size: 21px;
+    font-family: 'Gilda Display', serif;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.box p{
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin:0px;
+}
+
+.box h2{
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    
+}
+
+
+/* -----------------------------*/
+
+
+h2{
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 33px;
+    text-decoration: underline;
+    padding-top: 40px;   
+}
+
+
+
+.nomophobia hr{
+     margin: 60px 90px;
+}
+
+
+.nomophobia h3{
+    text-align: center;
+    color: #9CC0E7;
+    font-size: 40px;
+    font-weight:100;
+    font-family: 'Dosis', sans-serif;
+}
+
+.nomophobia h1 {
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+}
+
+.nomophobia p {
+    margin: 3% 22%;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+
+/* -------------BLOG PAGE------------------*/
+
+.blogparent1{
+    display:flex;
+    margin: 20px;
+
+    
+}
+
+
+.mainblog1 img{
+    width:100%;
+}
+
+
+.mainblog1{
+    margin-left:30px;
+    flex:1;
+  
+}
+
+.mainblog1 h2{
+    text-align:left;
+    font-family: 'Gilda Display', serif;
+    text-decoration: none;
+
+}
+
+.mainblog1 p{
+    text-align:left;
+    font-family: 'Dosis', sans-serif;
+    margin:0px;
+    font-weight:normal
+    
+}
+
+.mainblog1 a{
+    color:#BEBEBE;
+}
+
+
+
+.mainblog1 h2{
+    text-align:left;
+    font-family: 'Gilda Display', serif;
+    padding-top:0;
+    margin-top:0;
+}
+
+
+
+
+
+.blogparent{
+    display:flex;
+    margin: 20px;
+}
+
+.blogparent a{
+    font-size:14px;
+}
+
+
+
+    
+
+
+/* -------------ABOUT------------------*/
+
+
+.about hr{
+    margin: 25px 90px;
+}
+.about h3{
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 33px;
+    text-decoration: underline;
+    margin-top:0;
+}
+
+
+.about img{
+    border:2px solid #ececec;
+    outline: 1px solid #858585;
+    outline-offset: -25px;
+}
+
+.about p{
+    margin:8px;
+     font-family: 'Dosis', sans-serif;
+}
+
+/* -------------FORM------------------*/
+
+
+
+
+
+
+
+form{
+    margin:60px;
+    margin-bottom:20%;
+
+}
+input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+
+.contact {
+    padding-top:20px;
+    width:50%;
+    margin:auto;
+    border: 1px solid #EEEEEE
+
+
+}
+
+
+.container h3{
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 33px;
+    text-decoration: underline;
+    margin-top:0, 20px;
+    margin-left: 20px;
+
+}
+    
+.contact p{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+/* -------------FOOTER------------------*/
+
+
+
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10px;    
+  background-color: #F7DBD7;
+  font-weight:100;
+  font-family: 'Gilda Display', serif;
+
+}
+
+
+
+
+
+
+
